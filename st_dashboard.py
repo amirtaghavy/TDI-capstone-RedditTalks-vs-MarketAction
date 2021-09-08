@@ -5,7 +5,7 @@ import plotly.express as px
 from datetime import date
 import statsmodels
 
-with open('.\compiled-sentiment-history.pkd', 'rb') as f: 
+with open('compiled-sentiment-history.pkd', 'rb') as f: 
     df_compiled = dill.load(f)
     df_compiled.drop_duplicates(inplace=True)
 dates = list({idx[1] for idx in df_compiled.index})
@@ -62,7 +62,7 @@ elif page == 'App structure':
             E. investor sentiment - market performance data are analyzed, modeled, and visualized
             
         ''') 
-    img = './CodeStructure.png'
+    img = 'CodeStructure.png'
     st.image(img, clamp=True,
         caption='Schematic of the logical code structure and inter-connections between modules \
             (i) compiling market talk data from social media platforms, \
