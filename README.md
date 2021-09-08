@@ -1,2 +1,2 @@
 # TDI-capstone-RedditTalks-vs-MarketAction
-This App was developed using [*Streamlit*](https://streamlit.io/) platform as the program entry project for [**the Data Incubator**](https://www.thedataincubator.com/) fellowship program.
+This App was developed as main deliverable of thecapstone project requirement of [**the Data Incubator**](https://www.thedataincubator.com/) fellowship program.
