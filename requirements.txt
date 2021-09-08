@@ -1,0 +1,6 @@
+streamlit
+dill
+pandas
+plotly
+datetime
+statsmodels
