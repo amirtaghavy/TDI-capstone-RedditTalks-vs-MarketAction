@@ -5,7 +5,7 @@ import plotly.express as px
 from datetime import date
 import statsmodels
 
-with open('DWH\compiled-sentiment-history.pkd', 'rb') as f: 
+with open('.\compiled-sentiment-history.pkd', 'rb') as f: 
     df_compiled = dill.load(f)
     df_compiled.drop_duplicates(inplace=True)
 dates = list({idx[1] for idx in df_compiled.index})
